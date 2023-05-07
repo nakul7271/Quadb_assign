@@ -1,0 +1,33 @@
+.div1 {
+  display: inline-block;
+  max-width: 210px;
+  max-height: 440px;
+  background-color: rgb(72, 73, 73);
+  margin: 1.3rem;
+  box-shadow: 10px 10px 5px -2px rgba(74, 74, 79, 0.75);
+  transition: 0.3s;
+  border-radius: 10px;
+  
+}
+
+.div2 {
+  text-align: center;
+}
+
+.div1:hover {
+    box-shadow: 10px 10px 5px -2px rgba(123, 123, 127, 0.75);
+    transform: scale(1.03);
+}
+
+img {
+  border-radius: 10px 10px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.noUnderline {
+  text-decoration: none;
+  color: inherit;
+}
